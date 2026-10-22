@@ -1,4 +1,4 @@
-# Date :
+# Date :22.10.2026
 ## Ex.-No-2-Interconnecting-Two-LANs-Using-a-Router-Basic-Router-Configuration
 
 
@@ -16,7 +16,9 @@ ________________________________________
  Description:<br>
 •	PC0 → Switch0 → Router (FastEthernet0/0)<br>
 •	PC1 → Switch1 → Router (FastEthernet0/1)<br>
-(Insert screenshot of your Packet Tracer setup here)<br>
+
+<img width="1600" height="1001" alt="image" src="https://github.com/user-attachments/assets/2f5d6580-84a3-4b0d-bec1-da036682a6d2" />
+
 ________________________________________
 # IP Addressing Table
 Device	Interface	IP Address	Subnet Mask<br>
@@ -51,10 +53,25 @@ Router(config)# interface fastethernet0/1<br>
 Router(config-if)# ip address 192.168.2.1 255.255.255.0<br>
 Router(config-if)# no shutdown<br>
 ________________________________________
-# Output (Screenshots)
+# Output 
 •	Router CLI configuration<br>
 •	IP configurations on PCs<br>
 •	Successful ping between PC0 and PC1<br>
+
+<img width="1600" height="1002" alt="image" src="https://github.com/user-attachments/assets/0f32fff1-2f46-4636-a9ea-6b08d1f2f296" />
+
+<img width="1600" height="993" alt="image" src="https://github.com/user-attachments/assets/25c853d4-86b2-4d49-b09d-c8e0b5b9e0a8" />
+
+<img width="1600" height="1002" alt="image" src="https://github.com/user-attachments/assets/2b8cd8d7-5c1f-4a70-a6c8-a18ac36a2b54" />
+
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/2619e6da-9639-4dbd-af00-e69df9674638" />
+
+<img width="1600" height="996" alt="image" src="https://github.com/user-attachments/assets/34992b4d-eccf-4e6c-9fd1-cb16dd29cf7f" />
+
+<img width="1600" height="986" alt="image" src="https://github.com/user-attachments/assets/dff6f8db-d41d-4b95-810f-de5a59567efb" />
+
+<img width="1600" height="999" alt="image" src="https://github.com/user-attachments/assets/c0d0b2ef-c7e4-4069-900d-8509065d186c" />
+
 ________________________________________
 # Result
 Successfully configured a router to connect two LANs. Communication between PC0 and PC1 across different networks was tested and verified.
